@@ -3,6 +3,6 @@ Python script to format json data extracted via RClone from Backblaze B2, the da
 
 Export the data with RClone
 
-.\rclone.exe lsjson bucket-name: > FileList.json --recursive  
+`.\rclone.exe lsjson bucket-name: > FileList.json --recursive`  
 
 Then use the RCloneFormatter to generate a txt with the formatted data.
